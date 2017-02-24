@@ -14,7 +14,7 @@ class AddBBCode
     {
         $event->configurator->BBCodes->addCustom(
             '[FA]{TEXT}[/FA]',
-            '<i class="fa fa-{TEXT}"></i>'
+            '<i class="fa fa-fw fa-{TEXT}"></i>'
         );
     }
 }
