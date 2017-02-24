@@ -13,8 +13,8 @@ class AddBBCode
     public function addBBCode(ConfigureFormatter $event)
     {
         $event->configurator->BBCodes->addCustom(
-            '[FA]{TEXT}[/FA]',
-            '<i class="fa fa-fw fa-{TEXT}"></i>'
+            '[FA]{IDENTIFIER}[/FA]',
+            '<i class="fa fa-fw fa-{IDENTIFIER}"></i>'
         );
     }
 }
