@@ -1,16 +1,16 @@
 <?php namespace AntoineFr\BBCode\FA\Listeners;
 
-use Flarum\Event\ConfigureFormatter;
+use Formatter\Event\Configuring;
 use Illuminate\Contracts\Events\Dispatcher;
 
 class AddBBCode
 {
     public function subscribe(Dispatcher $events)
     {
-        $events->listen(ConfigureFormatter::class, [$this, 'addBBCode']);
+        $events->listen(Configuring::class, [$this, 'addBBCode']);
     }
     
-    public function addBBCode(ConfigureFormatter $event)
+    public function addBBCode(Configuring $event)
     {
         $event->configurator->BBCodes->addCustom(
             '[FA]{IDENTIFIER}[/FA]',
