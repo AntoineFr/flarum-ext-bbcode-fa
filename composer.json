@@ -14,7 +14,9 @@
         "flarum-extension": {
             "title": "BBCode FA",
             "icon": {
-                "name": "font-awesome"
+                "name": "fab fa-font-awesome",
+                "backgroundColor": "#339AF0",
+                "color": "#FFFFFF"
             }
         }
     }
