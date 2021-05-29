@@ -1,7 +1,6 @@
 <?php namespace AntoineFr\BBCode\FA;
 
 use Flarum\Extend;
-use Flarum\Extend\Formatter;
 use s9e\TextFormatter\Configurator;
 
 return (new Extend\Formatter)

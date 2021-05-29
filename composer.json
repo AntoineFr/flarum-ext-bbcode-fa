@@ -2,8 +2,14 @@
     "name": "antoinefr/flarum-ext-bbcode-fa",
     "description": "Insert FontAwesome icons in your posts.",
     "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "forum": "https://discuss.flarum.org/d/4981-fontawesome-bbcode-extension",
+        "issues": "https://github.com/AntoineFr/flarum-ext-bbcode-fa/issues",
+        "source": "https://github.com/AntoineFr/flarum-ext-bbcode-fa"
+    },
     "require": {
-        "flarum/core": "^0.1.0-beta.6"
+        "flarum/core": "^0.1.0-beta.6 || ^1.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -13,6 +19,7 @@
     "extra": {
         "flarum-extension": {
             "title": "BBCode FA",
+            "category": "feature",
             "icon": {
                 "name": "fab fa-font-awesome",
                 "backgroundColor": "#339AF0",
