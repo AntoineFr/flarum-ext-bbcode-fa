@@ -9,6 +9,7 @@ Run `composer require antoinefr/flarum-ext-bbcode-fa` in Flarum's folder.
 - Regular: `[far]circle[/far]`
 - Light: `[fal]circle[/fal]`
 - Brand: `[fab]github[/fab]`
+- Other styles (thin, duotone, ...): see https://docs.fontawesome.com/web/setup/upgrade/whats-changed#full-style-names
 
 *Note: `[fa]` is still supported for compatibility reasons. It will use `[fas]`.*
 
